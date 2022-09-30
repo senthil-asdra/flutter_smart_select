@@ -1103,7 +1103,7 @@ abstract class S2State<T> extends State<SmartSelect<T>> {
       autofocus: true,
       controller: filter.ctrl,
       style: modalHeaderStyle.textStyle,
-      cursorColor: modalConfig.isFullPage ? Colors.white : theme.cursorColor,
+      cursorColor: modalConfig.isFullPage ? Colors.white : Colors.white,
       textInputAction: TextInputAction.search,
       decoration: InputDecoration.collapsed(
         hintText: modalConfig.filterHint ?? 'Search on $title',
